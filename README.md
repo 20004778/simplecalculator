@@ -1,8 +1,12 @@
 # simplecalculator
+
 # CStream
-Name - Surya
-Reg.No - 212220230052
+ Name - Surya
+
+ Reg.No - 212220230052
+
 # HTML
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,8 +60,9 @@ Reg.No - 212220230052
     <script src="calculator.js"></script>
 </body>
 </html>
-
+```
 # CSS
+```
 .calculator {
     padding: 10px;
     border-radius: 1em;
@@ -99,8 +104,9 @@ input:active[type=button] {
     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
     box-shadow: inset 0px 0px 5px #c1c1c1;
 }
-
+```
 # JavaScript:
+```
 let history = [];
 let currentExpression = '';
 
@@ -142,3 +148,4 @@ function updateHistoryDisplay() {
     document.getElementById('history').value = history.join('\n');
 }
 
+```
